@@ -1,0 +1,15 @@
+<div onmouseover="mOver(this)"
+onmouseout="mOut(this)"
+style="background-color:green;width:140px;height:20px;padding:20px; color:#fry">Навести курсор</div>
+
+<script>
+function mOver(obj)
+{
+obj.innerHTML="Реакция на курсор"
+}
+
+function mOut(obj)
+{
+obj.innerHTML="Навести курсор"
+}
+</script>
